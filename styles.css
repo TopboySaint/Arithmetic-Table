@@ -21,8 +21,6 @@
 }
 
 body {
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   background-image: url(image/6ee19142a58f28b93766a9f44663a540.jpg);
 }
 
@@ -38,8 +36,7 @@ tr {
   /* border: 2px solid blue; */
 }
 
-td,
-th {
+td {
   /* border: 2px solid blue; */
   padding: 10px;
   text-align: center;

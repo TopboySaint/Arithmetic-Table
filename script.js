@@ -10,7 +10,7 @@ function multiplyit() {
       myOutput += `<td>${col} x ${row} = ${col * row}</td>`;
     }
 
-    // myOutput += `</tr>`
+    myOutput += `</tr>`
   }
 
   mytable.innerHTML = myOutput;
@@ -28,7 +28,7 @@ function divideit() {
       myOutput += `<td>${col} / ${row} = ${col / row}</td>`;
     }
 
-    // myOutput += `</tr>`
+    myOutput += `</tr>`
   }
   mytable.innerHTML = myOutput;
 }
@@ -45,7 +45,7 @@ function add() {
       myOutput += `<td>${col} + ${row} = ${col + row}</td>`;
     }
 
-    // myOutput += `</tr>`
+    myOutput += `</tr>`
   }
   mytable.innerHTML = myOutput;
 }
@@ -62,7 +62,7 @@ function minus() {
       myOutput += `<td>${col} - ${row} = ${col - row}</td>`;
     }
 
-    // myOutput += `</tr>`
+    myOutput += `</tr>`
   }
   mytable.innerHTML = myOutput;
 }
