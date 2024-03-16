@@ -25,7 +25,7 @@ function divideit() {
     myOutput += `<tr>`;
 
     for (row = 1; row <= secondNumber; row++) {
-      myOutput += `<td>${col} / ${row} = ${col / row}</td>`;
+      myOutput += `<td>${col} / ${row} = ${(col / row).toFixed(0)}</td>`;
     }
 
     myOutput += `</tr>`
