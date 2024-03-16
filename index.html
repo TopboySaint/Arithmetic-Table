@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+    <div class="header m-5">
+        <h1>Saint's Arithmetic Operation System</h1>
+        <p>Please enter two digits respectfully to get your preferred output</p>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Enter First Value Here" class="d-block form-control w-50 p-3 m-4" id="oneNumber">
+        <input type="text" placeholder="Enter Second Value Here" class="d-block form-control w-50 p-3 m-4" id="twoNumber">
+        
+        <div class="m-5 bttn">
+            <button onclick="add()" class="ms-3">Addition</button>
+            <button onclick="multiplyit()" class="ms-3">Multiplication</button>
+            <button onclick="minus()" class="ms-3">Substraction</button>
+            <button onclick="divideit()" class="ms-3">Division</button>
+            <button onclick="makeTable()" class="ms-3">Show Table</button>
+        </div>
+
+        <table id="mytable" class="mt-5"></table>
+    </div>
+
+
+    <script src="script.js">
+
+
+    </script>
+</body>
+</html>
