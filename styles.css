@@ -24,21 +24,12 @@ body {
   background-image: url(image/6ee19142a58f28b93766a9f44663a540.jpg);
 }
 
-#mytable {
-  width: 100%;
+table tr td {
   color: blue;
   font-weight: 700;
+  padding: 10px;
+  background: whitesmoke;
   border: 2px solid blue;
 }
 
-tr {
-  /* width: auto; */
-  /* border: 2px solid blue; */
-}
 
-td {
-  /* border: 2px solid blue; */
-  padding: 10px;
-  text-align: center;
-  background: whitesmoke;
-}

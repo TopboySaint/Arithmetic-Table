@@ -3,23 +3,23 @@ function multiplyit() {
   var secondNumber = document.getElementById("twoNumber").value;
   var myOutput = "";
 
-  for (col = 1; col <= firstNumber; col++) {
+  for (col = 1; col <= secondNumber; col++) {
     myOutput += `<tr>`;
 
-    for (row = 1; row <= secondNumber; row++) {
+    for (row = 1; row <= firstNumber; row++) {
       myOutput += `<td>${col} x ${row} = ${col * row}</td>`;
     }
 
     myOutput += `</tr>`
   }
 
-  mytable.innerHTML = myOutput;
+  mytable.innerHTML += myOutput;
 }
 
 function divideit() {
   var firstNumber = document.getElementById("oneNumber").value;
   var secondNumber = document.getElementById("twoNumber").value;
-  var myOutput = "<table>";
+  var myOutput = "";
 
   for (col = 1; col <= firstNumber; col++) {
     myOutput += `<tr>`;
