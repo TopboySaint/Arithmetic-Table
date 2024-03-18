@@ -19,7 +19,7 @@ function multiplyit() {
 function divideit() {
   var firstNumber = document.getElementById("oneNumber").value;
   var secondNumber = document.getElementById("twoNumber").value;
-  var myOutput = "";
+  var myOutput = "<table>";
 
   for (col = 1; col <= firstNumber; col++) {
     myOutput += `<tr>`;
@@ -30,6 +30,7 @@ function divideit() {
 
     myOutput += `</tr>`
   }
+  // myOutput = `</table>`
   mytable.innerHTML = myOutput;
 }
 
