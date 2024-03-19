@@ -7,7 +7,7 @@ function multiplyit() {
     myOutput += `<tr>`;
 
     for (row = 1; row <= firstNumber; row++) {
-      myOutput += `<td>${col} x ${row} = ${col * row}</td>`;
+      myOutput += `<td>${row} x ${col} = ${col * row}</td>`;
     }
 
     myOutput += `</tr>`
@@ -30,7 +30,6 @@ function divideit() {
 
     myOutput += `</tr>`
   }
-  // myOutput = `</table>`
   mytable.innerHTML = myOutput;
 }
 
@@ -67,8 +66,3 @@ function minus() {
   }
   mytable.innerHTML = myOutput;
 }
-
-// function makeTable(rows, columns){
-//     let table = "<table border='1'>";
-
-// }
