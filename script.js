@@ -3,6 +3,12 @@ function multiplyit() {
   var secondNumber = document.getElementById("twoNumber").value;
   var myOutput = "";
 
+  if(firstNumber === "" || secondNumber === ""){
+    document.getElementById('errorMsg').style.display = "block"
+  }else{
+    document.getElementById('errorMsg').style.display = "none"
+  }
+
   for (col = 1; col <= secondNumber; col++) {
     myOutput += `<tr>`;
 
@@ -21,6 +27,12 @@ function divideit() {
   var secondNumber = document.getElementById("twoNumber").value;
   var myOutput = "";
 
+  if(firstNumber === "" || secondNumber === ""){
+    document.getElementById('errorMsg').style.display = "block"
+  }else{
+    document.getElementById('errorMsg').style.display = "none"
+  }
+
   for (col = 1; col <= firstNumber; col++) {
     myOutput += `<tr>`;
 
@@ -38,6 +50,12 @@ function add() {
   var secondNumber = document.getElementById("twoNumber").value;
   var myOutput = "";
 
+  if(firstNumber === "" || secondNumber === ""){
+    document.getElementById('errorMsg').style.display = "block"
+  }else{
+    document.getElementById('errorMsg').style.display = "none"
+  }
+
   for (col = 1; col <= firstNumber; col++) {
     myOutput += `<tr>`;
 
@@ -54,6 +72,12 @@ function minus() {
   var firstNumber = document.getElementById("oneNumber").value;
   var secondNumber = document.getElementById("twoNumber").value;
   var myOutput = "";
+
+  if(firstNumber === "" || secondNumber === ""){
+    document.getElementById('errorMsg').style.display = "block"
+  }else{
+    document.getElementById('errorMsg').style.display = "none"
+  }
 
   for (col = 1; col <= firstNumber; col++) {
     myOutput += `<tr>`;
