@@ -1,5 +1,4 @@
 .bttn button {
-  margin-left: 50px;
   padding: 12px;
   color: whitesmoke;
   background: rgb(79, 79, 250);
@@ -7,6 +6,7 @@
   font-weight:600;
   border-radius: 20px;
   box-shadow: 2px 2px whitesmoke;
+  display: block;
 }
 
 .header h1 {
@@ -16,8 +16,8 @@
 
 .header p {
   color: whitesmoke;
-  font-weight: 500;
-  margin-left: 100px;
+  /* font-weight: 500; */
+  /* margin-left: 100px; */
 }
 
 body {
